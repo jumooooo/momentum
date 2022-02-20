@@ -8,14 +8,56 @@
   </head>
 
   <body>
-    <form action="watch.html" class="login-form">
+    <form class="login-form">
       <div>
         <h1>Hello, what's your name?</h1>
       </div>
       <input type="text" />
     </form>
 
+    <div class="greetings hidden">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>Links</span>
+          <i class="fas fa-search fa"></i>
+        </div>
+        <div class="status-bar__column">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="mainbox">
+        <div class="main-display">
+          <h1>00:00:00</h1>
+          <span></span>
+        </div>
+
+        <form id="todo-form">
+          <span>What is your main focus for today?</span>
+          <input type="text" required />
+        </form>
+
+        <ul id="todo-list">
+          <span class="hidden">TODAY</span>
+        </ul>
+
+        <div id="quote">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
     <script src="js/name.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorgin="anonymous"
+    ></script>
   </body>
 </html>
