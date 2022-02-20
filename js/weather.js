@@ -1,5 +1,5 @@
-const weather = document.querySelector("#weather span:first-child");
-const city = document.querySelector("#weather span:last-child");
+const weather = document.querySelector(".status-bar div:nth-child(2) span:first-child");
+const city = document.querySelector(".status-bar div:nth-child(2) span:last-child");
 const API_KEY = "129c442017a182dfcf8b45dea4ace4e6";
 
 function onGeoOk(position) {
